@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+API_ID = int(os.getenv("21567814"))
+API_HASH = os.getenv("cd7dc5431d449fd795683c550d7bfb7e")
+BOT_TOKEN = os.getenv("7864597080:AAHfJO_1bXx7i8cPVRjDhG1-hwF71EWSFL4")
 
 app = FastAPI()
 
